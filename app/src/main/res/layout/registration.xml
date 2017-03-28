@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+        android:textColor="#451fb5"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textSize="40dp"
+        android:typeface="serif"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="325dp">
+
+        <EditText
+            android:id="@+id/r_uname"
+            android:textColorHint="#47535b"
+            android:layout_marginTop="30dp"
+            android:hint="Username"
+            android:drawableLeft="@drawable/uname"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:textColor="#47535B"
+            />
+
+
+
+        <EditText
+            android:id="@+id/r_email"
+            android:textColorHint="#47535b"
+            android:layout_marginTop="5dp"
+            android:hint="email"
+            android:drawableLeft="@drawable/remail"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:textColor="#47535B"
+            />
+
+        <EditText
+            android:id="@+id/r_mobno"
+            android:textColorHint="#47535b"
+            android:inputType="phone"
+            android:layout_marginTop="5dp"
+            android:hint="mobilenumber"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/mobno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:textColor="#47535B"
+            />
+
+        <EditText
+            android:id="@+id/r_address"
+            android:textColorHint="#47535b"
+            android:layout_marginTop="5dp"
+            android:hint="Address"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/userlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:textColor="#47535B"
+            />
+
+        <EditText
+            android:id="@+id/r_pwd"
+            android:drawableLeft="@drawable/pwd"
+            android:textColorHint="#47535b"
+            android:inputType="textPassword"
+            android:layout_marginTop="5dp"
+            android:hint="password"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:textColor="#47535B"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/submit"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Submit"
+            android:background="#451fb5"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+    </LinearLayout>

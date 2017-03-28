@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/r_uname"
+        android:textColorHint="#47535b"
+        android:layout_marginTop="30dp"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="#47535B"
+        />
+
+
+
+    <EditText
+        android:id="@+id/r_email"
+        android:textColorHint="#47535b"
+        android:layout_marginTop="5dp"
+        android:hint="email"
+
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="#47535B"
+        />
+    <EditText
+        android:id="@+id/r_address"
+        android:textColorHint="#47535b"
+        android:layout_marginTop="5dp"
+        android:hint="Address"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="#47535B"
+        />
+
+
+
+    <EditText
+        android:id="@+id/r_pwd"
+        android:textColorHint="#47535b"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        android:hint="password"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="#47535B"
+        />
+
+
+
+    <EditText
+        android:id="@+id/r_mobno"
+        android:textColorHint="#47535b"
+        android:inputType="phone"
+        android:layout_marginTop="5dp"
+        android:hint="mobilenumber"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="#47535B"
+        />
+
+
+</LinearLayout>
