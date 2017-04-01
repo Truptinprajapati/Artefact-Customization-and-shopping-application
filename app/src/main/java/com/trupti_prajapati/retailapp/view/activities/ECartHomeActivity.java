@@ -240,6 +240,10 @@ public class ECartHomeActivity extends AppCompatActivity {
 				Intent a=new Intent(ECartHomeActivity.this,Storeloactor.class);
 				startActivity(a);
 				return true;
+			case R.id.notification:
+				Intent in=new Intent(ECartHomeActivity.this,Notifications.class);
+				startActivity(in);
+				return true;
 		}
 
 		return super.onOptionsItemSelected(item);

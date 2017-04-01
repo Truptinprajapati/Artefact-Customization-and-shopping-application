@@ -43,7 +43,9 @@
             android:name=".view.activities.Registration"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".view.activities.Storeloactor" />
-        <activity android:name=".view.activities.Userplaceorder"></activity>
+        <activity android:name=".view.activities.Userplaceorder" />
+        <activity android:name=".view.activities.Payment" />
+        <activity android:name=".view.activities.Notifications"></activity>
     </application>
 
 </manifest>

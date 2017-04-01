@@ -566,7 +566,7 @@ public class WebServer {
 
         productlist
 				.add(new Product(
-						" purse",
+						" ring",
 						"Royal Oak Engineered Wood Coffee Table",
 						"With a contemporary design and gorgeous finish, this coffee table will be a brilliant addition to modern homes and even offices. The table has a glass table top with a floral print, and a pull-out drawer in the center.",
 						"10200",
@@ -719,26 +719,26 @@ public class WebServer {
 		// kids
 		productlist
 				.add(new Product(
-						"girls drees",
+						"watch",
 						"Everything Imported Carbon Steel Collapsible Wardrobe",
 						"Portable Wardrobe Has Hanging Space And Shelves Which Are Very Practical And The Roll Down Cover Keeps The Dust Out",
 						"2999",
 						"20",
 						"1999",
 						"0",
-						"https://www.flipkart.com/r-enterprises-musical-melody-piano/p/itmejguafkhbchtt?pid=MTYEJGUAG68GGSEN&srno=s_1_10&otracker=search&lid=LSTMTYEJGUAG68GGSENAFYEZ8&qH=056fe6baf4bfd08e",
+						"https://rukminim1.flixcart.com/image/312/312/watch/b/g/a/8989pp02-sonata-original-imadxv8v3mrvqwxu.jpeg?q=70\",",
 		""));
 
 		productlist
 				.add(new Product(
-						"Boys T-shirt",
+						"girls top",
 						"Everything Imported Carbon Steel Collapsible Wardrobe",
 						"Portable Wardrobe Has Hanging Space And Shelves Which Are Very Practical And The Roll Down Cover Keeps The Dust Out",
 						"2999",
 						"20",
 						"1999",
 						"0",
-						"https://www.flipkart.com/gkidz-boys-printed/p/itmemx58q5ac7une?pid=TSHEKM7BVSGUWZRR&srno=s_1_13&otracker=search&lid=LSTTSHEKM7BVSGUWZRRSWZDWM&qH=d2466bd5a5facbe6",
+						"https://tse4.mm.bing.net/th?id=OIP.Ofzx5ytPhhNJ1vlxyPALjQD0Es&pid=15.1&P=0&w=300&h=300",
 						""));
 
 		productlist

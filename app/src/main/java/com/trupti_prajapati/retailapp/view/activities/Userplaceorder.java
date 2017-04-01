@@ -1,5 +1,6 @@
 package com.trupti_prajapati.retailapp.view.activities;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -59,6 +60,9 @@ public class Userplaceorder extends AppCompatActivity {
                 {
                     Toast.makeText(getApplicationContext(),"valid email",Toast.LENGTH_SHORT).show();
                 }
+
+                Intent i=new Intent(Userplaceorder.this,Payment.class);
+                startActivity(i);
             }
 
             private boolean isValidEmail(String coemail) {
@@ -69,6 +73,7 @@ public class Userplaceorder extends AppCompatActivity {
                 matcher = pattern.matcher(coemail);
                 return matcher.matches();
             }
+
 
 
         });

@@ -12,21 +12,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.trupti_prajapati.retailapp.view.activities.Userplaceorder">
     <TextView
+        android:layout_marginTop="100dp"
         android:text="Confirm order"
         android:textSize="30dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"/>
+        android:layout_marginBottom="30dp"/>
 
     <EditText
         android:id="@+id/username"
         android:hint="user name"
+        android:drawableLeft="@drawable/uname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/mobileno"
         android:hint="mobile number"
+        android:drawableLeft="@drawable/mobno"
         android:ems="10"
         android:inputType="phone"
         android:layout_width="match_parent"
@@ -34,11 +37,13 @@
     <EditText
         android:id="@+id/email"
         android:hint="email"
+        android:drawableLeft="@drawable/remail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/address"
         android:hint="address"
+        android:drawableLeft="@drawable/userlocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -46,7 +51,7 @@
         android:id="@+id/confirmorder"
         android:layout_marginTop="20dp"
         android:textSize="20dp"
-        android:text="Ok"
+        android:text="Next"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

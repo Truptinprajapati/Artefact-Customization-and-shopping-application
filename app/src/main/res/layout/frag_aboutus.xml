@@ -166,7 +166,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="uses"
+                android:text="Listview"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
 
@@ -177,7 +177,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses ACRA"
+                android:text="Fragment"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -189,7 +189,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Av Loading indicator"
+                android:text="Gson"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -201,7 +201,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Jazzy List View"
+                android:text="Json"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -213,7 +213,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Square Picasso and Glide "
+                android:text="Piccaso "
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -225,7 +225,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Label View"
+                android:text=" Label View"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -237,7 +237,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Guava"
+                android:text="Av Loading indicator"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -249,7 +249,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Gson"
+                android:text="Tabhost"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -261,7 +261,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Volley"
+                android:text="Animation"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -273,7 +273,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Nine Old Android"
+                android:text="Menu"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />

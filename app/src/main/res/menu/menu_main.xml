@@ -20,5 +20,11 @@
         android:orderInCategory="2"
         >
     </item>
+    <item android:id="@+id/notification"
+        android:icon="@drawable/ic_vpn_lock_black_24dp"
+        android:title="Notification"
+        android:orderInCategory="3"
+        app:showAsAction="always"></item>
+
 
 </menu>

@@ -63,7 +63,7 @@ public class SettingsFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View rootView = inflater.inflate(R.layout.frag_settings, container,
+		View rootView = inflater.inflate(R.layout.frag_aboutus, container,
 				false);
 
 		getActivity().setTitle("About App");
