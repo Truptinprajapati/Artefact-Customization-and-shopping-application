@@ -31,6 +31,7 @@
      */
     public class Registration extends AppCompatActivity {
         String URL ="http://development.ifuturz.com/core/FLAT_TEST/ecart_new/admin/webservice.php";
+        String regexStr = "^[0-9]$";
 
         @Override
         protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -43,6 +44,7 @@
             final EditText pwd=(EditText)findViewById(R.id.r_pwd);
             //final EditText conpwd=(EditText)findViewById(R.id.r_confirmpwd);
             final EditText mobno=(EditText)findViewById(R.id.r_mobno);
+
             //final TextView gender=(TextView)findViewById(R.id.gender_textview);
            // final RadioButton male=(RadioButton)findViewById(R.id.male_radiobutton);
             //final RadioButton female=(RadioButton)findViewById(R.id.female_radiobutton);
@@ -72,6 +74,17 @@
                    // String strconpwd = conpwd.getText().toString();
                     //String strgender = gender.getText().toString();
                     String strmob = mobno.getText().toString();
+
+                    //if(mobno.getText().toString().length()<10 || strmob.length()>10 || strmob.matches(regexStr)==false  )
+                    //
+                    if (strmob.isEmpty())
+                    {
+                        Toast.makeText(Registration.this,"Please enter mobile number",Toast.LENGTH_SHORT).show();
+                        // am_checked=0;
+                    }
+
+
+
     //                {
     //                    if (male.isChecked()) {
     //                        male.getText().toString();
@@ -98,9 +111,16 @@
     //                else if (strconpwd.isEmpty()) {
     //                    Toast.makeText(Registration.this, "please enter confirm password", Toast.LENGTH_SHORT).show();
     //                }
-                    else if (strmob.isEmpty()) {
-                        Toast.makeText(Registration.this, "please enter contact number", Toast.LENGTH_SHORT).show();
-                    }
+
+
+
+                    //else if (strmob.isEmpty()) {
+                      //  Toast.makeText(Registration.this, "please enter contact number", Toast.LENGTH_SHORT).show();
+                   // }
+
+
+
+
     //                else if (strgender.isEmpty()) {
     //                    Toast.makeText(Registration.this, "enter your gender", Toast.LENGTH_SHORT).show();
     //                } else if (!strpwd.equals(strconpwd)) {

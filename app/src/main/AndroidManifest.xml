@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
@@ -43,9 +44,15 @@
             android:name=".view.activities.Registration"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".view.activities.Storeloactor" />
+        <activity android:name=".view.activities.Citydetails" />
         <activity android:name=".view.activities.Userplaceorder" />
+        <activity android:name=".view.activities.Mycasepayment" />
+        <activity android:name=".view.activities.Cashpaylog" />
         <activity android:name=".view.activities.Payment" />
-        <activity android:name=".view.activities.Notifications"></activity>
+        <activity android:name=".view.activities.Notifications" />
+        <activity android:name=".view.activities.Cashpayregistration" />
+        <activity android:name=".view.activities.Paypal_webview" />
+        <activity android:name=".view.activities.Feedback"></activity>
     </application>
 
 </manifest>

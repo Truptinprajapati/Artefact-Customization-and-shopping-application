@@ -7,6 +7,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical" >
 
+
     <TextView
         android:id="@+id/txtSpeech_heading"
         android:layout_width="match_parent"

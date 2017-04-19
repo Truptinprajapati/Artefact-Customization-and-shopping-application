@@ -1,5 +1,6 @@
 package com.trupti_prajapati.retailapp.view.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -65,14 +66,23 @@ public class Storeloactor extends AppCompatActivity{
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
-                        citya.setText("Name:Ashram Road"+"\n"+
-                                " Ground Floor, Sharad Shopping Centre,"+"\n"+"Nr.Chinubhai Tower, Opp. Hand Loom House,"+
-                                "\n"+" Ashram Road, Ahmedaba");
+                String item =parent.getItemAtPosition(position).toString();
+                switch (position) {
+                    case 0:
+                        Intent i = new Intent(Storeloactor.this, Citydetails.class);
+                        startActivity(i);
 
-                        cityb.setText("Unit No. 1, Ground Floor, Binori Ambit,"+"\n"+
-                                " Old Survey No. 23, Final Plot No. 156 paiki of Town Planning Scheme No. 38,"+"\n"+
-                                " S. G. Highway, Near Muktidham Jain Derasar, Thaltej Cross Road, Moje Thaltej, Taluka Dascroi,"+
-                                "\n"+"AHMEDABAD, GUJARAT ");
+                        break;
+
+                }
+//                        citya.setText("Name:Ashram Road"+"\n"+
+//                                " Ground Floor, Sharad Shopping Centre,"+"\n"+"Nr.Chinubhai Tower, Opp. Hand Loom House,"+
+//                                "\n"+" Ashram Road, Ahmedaba");
+//
+//                        cityb.setText("Unit No. 1, Ground Floor, Binori Ambit,"+"\n"+
+//                                " Old Survey No. 23, Final Plot No. 156 paiki of Town Planning Scheme No. 38,"+"\n"+
+//                                " S. G. Highway, Near Muktidham Jain Derasar, Thaltej Cross Road, Moje Thaltej, Taluka Dascroi,"+
+//                                "\n"+"AHMEDABAD, GUJARAT ");
 
 
 

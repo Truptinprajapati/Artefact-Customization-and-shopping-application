@@ -1,8 +1,9 @@
 package com.trupti_prajapati.retailapp.view.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 import com.trupti_prajapati.retailapp.R;
@@ -12,11 +13,24 @@ import com.trupti_prajapati.retailapp.R;
  */
 public class Citydetails extends AppCompatActivity {
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
            setContentView(R.layout.citydetails);
 
         TextView tv=(TextView)findViewById(R.id.cityname);
+
+
+        tv.setText("Name:Ashram Road"+"\n"+
+                              " Ground Floor, Sharad Shopping Centre,"+"\n"+"Nr.Chinubhai Tower, Opp. Hand Loom House,"+
+                                "\n"+" Ashram Road, Ahmedaba");
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Citydetails.this, ECartHomeActivity.class);
+                startActivity(i);
+            }
+        });
+
 
 
 

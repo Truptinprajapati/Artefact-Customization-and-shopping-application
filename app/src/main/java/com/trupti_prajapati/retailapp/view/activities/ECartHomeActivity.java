@@ -66,7 +66,7 @@ public class ECartHomeActivity extends AppCompatActivity {
 		checkout.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent=new Intent(ECartHomeActivity.this,Userplaceorder.class);
+				Intent intent=new Intent(ECartHomeActivity.this,Cashpaylog.class);
 				startActivity(intent);
 			}
 		});

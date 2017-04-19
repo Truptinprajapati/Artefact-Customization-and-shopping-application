@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text="App Version"
+                android:text="App Name"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
-                android:text="1.0"
+                android:text="Artefact Customization and Shopping Application"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />

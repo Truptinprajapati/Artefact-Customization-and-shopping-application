@@ -9,13 +9,38 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#6895c8"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.trupti_prajapati.retailapp.view.activities.Payment">
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:weightSum="2"
+       android:layout_width="match_parent"
+       android:layout_height="100dp">
+       <TextView
+           android:text="Payment"
+           android:layout_weight="1"
+           android:background="#FFFFFF"
+           android:textSize="25dp"
+           android:typeface="serif"
+           android:layout_gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+
     <TextView
-        android:text="Payment"
+        android:id="@+id/feedback"
+        android:text="Feedback"
+        android:background="#FFFFFF"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_weight="1"
         android:textSize="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+   </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
         android:layout_marginTop="20dp"
@@ -24,30 +49,53 @@
         android:layout_height="80dp">
         <TextView
             android:drawableLeft="@drawable/payment"
-            android:text="   Please complete the payment Time"
+            android:text="Please complete the payment Time"
             android:textSize="18dp"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
             android:text="             Unpaid or orders will be cancelled"
             android:textSize="15dp"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
             android:text="             automatically  afterwards"
             android:textSize="15dp"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
 
     </LinearLayout>
     <TextView
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="45dp"
         android:text="payment method"
         android:layout_gravity="center"
         android:textSize="18dp"
+        android:typeface="serif"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/cash_payment"
+        android:text="Cash On Delivary"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/creaditcard"
+        android:text="Credit/Debit Card"
+        android:background="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 
 
 
